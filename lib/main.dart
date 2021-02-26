@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        // return widget on Android.
+        // return widget on Android. (Hybrid Composition)
         return PlatformViewLink(
           viewType: viewType,
           surfaceFactory:
